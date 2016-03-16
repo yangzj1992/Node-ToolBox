@@ -36,7 +36,7 @@ async.waterfall([
           callback(null, $('.summary .post-words').text());
         });
     }, function(err, res) {
-      console.log('文章标题:');
+      console.log('文章字数:');
       console.log(res);
       callback();
     });
